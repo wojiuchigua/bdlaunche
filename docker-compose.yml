@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+ bdl:
+  image: wojiuchigua/bdlauncher
+  ports:
+     - 19132:19132/udp
+     - 19132:19132/tcp
